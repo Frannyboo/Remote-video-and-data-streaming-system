@@ -21,6 +21,7 @@ The system consists of:
 ## 🧱 System Architecture
 [Sender Device]
 │
+├──Object detection using YOLO, when detection occurs, send
 ├── UDP (Detection Data)
 ├── HTTP POST (Video Frames)
 │
