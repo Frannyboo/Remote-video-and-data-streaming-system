@@ -35,7 +35,7 @@ Flask Server
 ## 🧩 Project Versions
 
 | Version | Key Update |
-|----------|--------------|------------|
+|----|----------------------------------------------------------------------------------------|
 | v1 | Basic setup of sending frames over the network |
 | v2 | Enabled video saving on sending device to be sent once over the network as opposed to frames |
 | v3 | Reduced computational weight on sending device |
@@ -57,6 +57,3 @@ Example setup steps:
 1. Install NetBird on both devices  
 2. Join both devices to the same NetBird network  
 3. Use the assigned internal IPs for communication:
-   ```python
-   UDP_TARGET = "100.x.x.x"  # Receiver NetBird IP
-   HTTP_URL = "http://100.x.x.x:5001/frame"
