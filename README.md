@@ -43,7 +43,7 @@ Flask Server
 ## 🧠 Key Challenges & Fixes
 1. V1 suffered from inability of the receiving device to view all the frames together so as to create the video
 2. V2 had high computational cost for CPU device
-3. V3 solved the issues of V1 and V2
+3. V3 solved the issues of V1 and V2, ie., the sending end sends frames and the receiving end receives the frames and forms it into a video.
 
 ## 🔐 About NetBird Integration
 
